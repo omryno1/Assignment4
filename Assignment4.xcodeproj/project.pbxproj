@@ -13,6 +13,16 @@
 		CDBC13A51E16C8B4009AF55A /* Assignment4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13A31E16C8B4009AF55A /* Assignment4.xcdatamodeld */; };
 		CDBC13A71E16C8B4009AF55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBC13A61E16C8B4009AF55A /* Assets.xcassets */; };
 		CDBC13AA1E16C8B4009AF55A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC13A81E16C8B4009AF55A /* LaunchScreen.storyboard */; };
+		CDBC13B21E16D620009AF55A /* AddStudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13B11E16D620009AF55A /* AddStudentController.swift */; };
+		CDBC13B71E16D669009AF55A /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13B61E16D669009AF55A /* Jitterable.swift */; };
+		CDBC13B91E16D687009AF55A /* Flashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13B81E16D687009AF55A /* Flashable.swift */; };
+		CDBC13BB1E16D6B4009AF55A /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13BA1E16D6B4009AF55A /* Delegates.swift */; };
+		CDBC13BD1E16D6D7009AF55A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13BC1E16D6D7009AF55A /* Student.swift */; };
+		CDBC13BF1E16D6F9009AF55A /* StudentDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13BE1E16D6F9009AF55A /* StudentDB.swift */; };
+		CDBC13C11E16D723009AF55A /* StudentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13C01E16D723009AF55A /* StudentDetailsViewController.swift */; };
+		CDBC13C41E16D761009AF55A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13C31E16D761009AF55A /* TableViewCell.swift */; };
+		CDBC13C61E16F4E5009AF55A /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC13C51E16F4E5009AF55A /* StudentTableViewController.swift */; };
+		CDD21EFD1E17CA1400055853 /* AddStudentWithImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD21EFC1E17CA1400055853 /* AddStudentWithImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		CDBC13A61E16C8B4009AF55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDBC13A91E16C8B4009AF55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBC13AB1E16C8B4009AF55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBC13B11E16D620009AF55A /* AddStudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentController.swift; sourceTree = "<group>"; };
+		CDBC13B61E16D669009AF55A /* Jitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
+		CDBC13B81E16D687009AF55A /* Flashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashable.swift; sourceTree = "<group>"; };
+		CDBC13BA1E16D6B4009AF55A /* Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+		CDBC13BC1E16D6D7009AF55A /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		CDBC13BE1E16D6F9009AF55A /* StudentDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDB.swift; sourceTree = "<group>"; };
+		CDBC13C01E16D723009AF55A /* StudentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailsViewController.swift; sourceTree = "<group>"; };
+		CDBC13C31E16D761009AF55A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CDBC13C51E16F4E5009AF55A /* StudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
+		CDD21EFC1E17CA1400055853 /* AddStudentWithImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentWithImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		CDBC139B1E16C8B4009AF55A /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
-				CDBC139C1E16C8B4009AF55A /* AppDelegate.swift */,
-				CDBC139E1E16C8B4009AF55A /* ViewController.swift */,
+				CDBC13B41E16D63E009AF55A /* Protocols */,
+				CDBC13B51E16D64E009AF55A /* Model */,
+				CDBC13B31E16D62F009AF55A /* Controller */,
+				CDBC13C21E16D73A009AF55A /* View */,
 				CDBC13A01E16C8B4009AF55A /* Main.storyboard */,
-				CDBC13A61E16C8B4009AF55A /* Assets.xcassets */,
 				CDBC13A81E16C8B4009AF55A /* LaunchScreen.storyboard */,
+				CDBC13A61E16C8B4009AF55A /* Assets.xcassets */,
+				CDBC139C1E16C8B4009AF55A /* AppDelegate.swift */,
 				CDBC13AB1E16C8B4009AF55A /* Info.plist */,
 				CDBC13A31E16C8B4009AF55A /* Assignment4.xcdatamodeld */,
 			);
 			path = Assignment4;
+			sourceTree = "<group>";
+		};
+		CDBC13B31E16D62F009AF55A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC139E1E16C8B4009AF55A /* ViewController.swift */,
+				CDBC13B11E16D620009AF55A /* AddStudentController.swift */,
+				CDBC13C01E16D723009AF55A /* StudentDetailsViewController.swift */,
+				CDBC13C51E16F4E5009AF55A /* StudentTableViewController.swift */,
+				CDD21EFC1E17CA1400055853 /* AddStudentWithImageController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CDBC13B41E16D63E009AF55A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC13B61E16D669009AF55A /* Jitterable.swift */,
+				CDBC13B81E16D687009AF55A /* Flashable.swift */,
+				CDBC13BA1E16D6B4009AF55A /* Delegates.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		CDBC13B51E16D64E009AF55A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC13BC1E16D6D7009AF55A /* Student.swift */,
+				CDBC13BE1E16D6F9009AF55A /* StudentDB.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CDBC13C21E16D73A009AF55A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC13C31E16D761009AF55A /* TableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +202,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBC139F1E16C8B4009AF55A /* ViewController.swift in Sources */,
+				CDBC13B21E16D620009AF55A /* AddStudentController.swift in Sources */,
+				CDBC13C61E16F4E5009AF55A /* StudentTableViewController.swift in Sources */,
+				CDBC13BB1E16D6B4009AF55A /* Delegates.swift in Sources */,
+				CDBC13B71E16D669009AF55A /* Jitterable.swift in Sources */,
 				CDBC139D1E16C8B4009AF55A /* AppDelegate.swift in Sources */,
+				CDBC13B91E16D687009AF55A /* Flashable.swift in Sources */,
+				CDBC13C41E16D761009AF55A /* TableViewCell.swift in Sources */,
+				CDBC13BF1E16D6F9009AF55A /* StudentDB.swift in Sources */,
+				CDBC13C11E16D723009AF55A /* StudentDetailsViewController.swift in Sources */,
 				CDBC13A51E16C8B4009AF55A /* Assignment4.xcdatamodeld in Sources */,
+				CDBC13BD1E16D6D7009AF55A /* Student.swift in Sources */,
+				CDD21EFD1E17CA1400055853 /* AddStudentWithImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +375,7 @@
 				CDBC13B01E16C8B4009AF55A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
